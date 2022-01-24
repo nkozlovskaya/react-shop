@@ -54,6 +54,7 @@ nav {
   max-width: 95%;
   box-shadow: inset -1px 3px 8px 5px lightblue,
     2px 5px 16px 0px rgba(0, 0, 255, 0.589), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  animation: show 500ms ease-in-out;
 }
 
 .basket-close {
@@ -64,14 +65,30 @@ nav {
   color: white;
 }
 
-.basket-delete{
+.basket-delete {
   cursor: pointer;
 }
-
 
 @media (min-width: 767px) {
   .cart {
     top: 5rem;
     bottom: unset;
   }
+}
+
+@keyframes show {
+  from {
+    top: 70%;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+.bask-q {
+  cursor: pointer;
+  vertical-align: middle;
+  color: #26a29a;
 }
