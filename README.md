@@ -1,3 +1,3 @@
 # React Shop Portfolio project
 
-(Demo) (https://github.com/nkozlovskaya/react-shop)
+[Demo] (https://nkozlovskaya/github.com/react-shop)
